@@ -1,42 +1,64 @@
-1. Java Basics Practice
+Java & Selenium Practice Repository
 
-A collection of small programs to strengthen core programming skills:
+This repository contains my initial hands-on practice with Core Java and Selenium WebDriver. It demonstrates foundational programming skills, basic automation scripts, and a simple Maven setup. All programs were written using Java 17 in Eclipse IDE.
 
-Arraylist.java – Working with dynamic lists
+📁 Repository Overview
 
-AscendingDecending.java – Sorting logic
+This project showcases:
+
+Core Java learning exercises
+
+Selenium WebDriver automation scripts
+
+A structured Maven project layout
+
+Fundamental programming and testing concepts
+
+📂 Folder Structure
+/src
+  /intro
+      Arraylist.java
+      AscendingDecending.java
+      Classmethods.java
+      IFLooop.java
+      JavaBrushup.java
+      Locators.java
+      SeleniumIntro.java
+      sumofnumbers.java
+      test.java
+
+pom.xml
+README.md
+
+🧩 Java Fundamentals (Practice Programs)
+
+These files focus on strengthening core programming concepts:
+
+Arraylist.java – Working with Java collections
+
+AscendingDecending.java – Sorting numbers
 
 Classmethods.java – Understanding classes and methods
 
-IFLoop.java – Looping and conditional statements
+IFLoop.java – Loops and conditionals
 
-JavaBrushup.java – General practice exercises
+JavaBrushup.java – Miscellaneous Java exercises
 
-sumofnumbers.java – Arithmetic and logic building
+sumofnumbers.java – Basic arithmetic logic
 
-These exercises focus on logic development, flow control, and object-oriented concepts.
+🧪 Selenium WebDriver Scripts
 
-2. Selenium WebDriver Scripts
+Automation practice using ChromeDriver:
 
-SeleniumIntro.java – Launching browser, navigating to pages
+SeleniumIntro.java – Launch browser and open web pages
 
-Locators.java – Practicing different element locators
+Locators.java – Identify and interact with elements
 
-test.java – A simple end-to-end automation example
+test.java – Simple end-to-end automation script
 
-These scripts demonstrate the basics of browser automation, locating web elements, sending input, and submitting forms.
+These files demonstrate locating elements, sending inputs, and navigating web pages.
 
-3. Maven Project Setup
-
-The project follows a simple Maven structure:
-
-pom.xml manages all dependencies
-
-Source code is placed under the standard src directory
-
-This reflects how real-world automation and development projects are organized.
-
-⚙️ Technologies Used
+⚙️ Tech Stack
 
 Java 17
 
@@ -46,32 +68,20 @@ Selenium WebDriver
 
 Maven
 
-ChromeDriver (for browser automation)
+ChromeDriver
 
-▶️ How to Run the Scripts
+▶️ How to Run
 
 Install JDK 17
 
-Install Eclipse or any Java IDE
+Use Eclipse or any Java IDE
 
 Clone the repository
 
-Update the ChromeDriver path inside Selenium scripts
+Update your local ChromeDriver path
 
-Run the .java files from the IDE or using Maven
+Run the .java files directly or via Maven
 
-🎯 Purpose of This Repository
+🎯 Purpose
 
-This repository serves as:
-
-Evidence of my coding practice
-
-A reflection of my learning progress
-
-A foundation for improving my automation and development skills
-
-A starting point as I transition towards more development-focused work
-
-📌 Notes
-
-This is a learning repository and will be updated regularly as I continue practicing and adding new examples.
+This repository highlights my coding practice, learning journey, and preparedness as I move toward development-oriented responsibilities. Updates will continue as I progress.
